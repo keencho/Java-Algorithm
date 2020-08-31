@@ -1,1 +1,1 @@
-0 3
+OUTPUT_PATH=/Users/gf-mac/Desktop/workspace/Java-Algorithm/output
