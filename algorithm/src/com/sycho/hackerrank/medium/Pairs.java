@@ -6,13 +6,21 @@ import java.util.*;
 public class Pairs {
 
     // Complete the pairs function below.
-    static int pairs(int k, int[] arr) {
+    static int pairs(int k, int[] a) {
 
-        for(int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        int count = 0;
+        Arrays.sort(a);
+
+        for (int i = 0; i < a.length; i++) {
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[j] - a[i] == k)
+                    count++;
+                else if (a[j] - a[i] > k)
+
+                    break;
+            }
         }
-
-        return 1;
+        return count;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
