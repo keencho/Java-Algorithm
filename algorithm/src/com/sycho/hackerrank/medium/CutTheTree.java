@@ -5,15 +5,30 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
-/**
- * https://www.hackerrank.com/challenges/cut-the-tree/problem
- */
 public class CutTheTree {
 
     private static int cutTheTree(List<Integer> data, List<List<Integer>> edges) {
 
         for (int a : data) {
 //            System.out.println(a);
+        }
+
+        int t = 0;
+        for (int a : data) {
+            t += a;
+            System.out.println("a equal: " + a);
+        }
+
+        System.out.println("total: " + t);
+        System.out.println("---------------------");
+
+        for (List<Integer> a : edges) {
+            System.out.println(a);
+        }
+
+        for (List<Integer> a : edges) {
+            List<List<Integer>> tmp = edges;
+            tmp.remove(a);
         }
 
         return 1;
