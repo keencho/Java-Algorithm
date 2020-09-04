@@ -9,10 +9,6 @@ public class CutTheTree {
 
     private static int cutTheTree(List<Integer> data, List<List<Integer>> edges) {
 
-        for (int a : data) {
-//            System.out.println(a);
-        }
-
         int t = 0;
         for (int a : data) {
             t += a;
