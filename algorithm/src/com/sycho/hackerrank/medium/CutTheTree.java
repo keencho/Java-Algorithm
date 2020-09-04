@@ -5,10 +5,16 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
+/**
+ * https://www.hackerrank.com/challenges/cut-the-tree/problem
+ */
 public class CutTheTree {
 
     private static int cutTheTree(List<Integer> data, List<List<Integer>> edges) {
-        // Write your code here
+
+        for (int a : data) {
+//            System.out.println(a);
+        }
 
         return 1;
     }
