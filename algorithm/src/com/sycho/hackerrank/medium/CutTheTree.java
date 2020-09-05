@@ -12,7 +12,6 @@ public class CutTheTree {
         int t = 0;
         for (int a : data) {
             t += a;
-            System.out.println("a equal: " + a);
         }
 
         System.out.println("total: " + t);
