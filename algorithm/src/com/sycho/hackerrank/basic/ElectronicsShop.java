@@ -20,10 +20,10 @@ public class ElectronicsShop {
                 }
             }
         }
-//
-//        for (int x : drives) {
-//            System.out.println(x);
-//        }
+
+        for (int x : drives) {
+            System.out.println(x);
+        }
 
         System.out.println("budget: " + b);
 
